@@ -1,8 +1,8 @@
 :root
 {
-    --uncblue:RBG(1,45,91);
-    --uncgold:RBG(254,189,54);
-    --uncgray:RBG (235;235,235);
+    --uncblue:RGB(1,45,91);
+    --uncgold:RGB(254,189,54);
+    --uncgray:RGB(235;235,235);
     color: var(--uncblue);
     background-color: var(--uncgray);
 }
