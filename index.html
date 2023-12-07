@@ -1,66 +1,48 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Page Title</title>
-    <style>
-      @font-face
-      {
-        font-family: UNCHeading;
-        src: url(css/font/UNCHeading.ttf)
-      }
-      @font-face
-      {
-        font-family: UNCBody;
-        src: url(css/font/UNCBody.ttf)
-      }
-      h1
-      {
-        font-family: UNCHeading, sans-serif;
-        font-size: 5vw;
-        font-weight: normal;
-        text-decoration: underline;
-      }
-      li
-      {
-        font-size: 150%;
-      }
-      p a
-      {
-        font-size: 12pt;
-        font-style: italic;
-      }
-      img
-      {
-        width: 30vw;
-      }
-      a
-      {
-        font-family: UNCBody;
-      }
-    </style>
-    <link rel="stylesheet" href="css/main.css">
-  </head> 
-  <body>
-    <h1>My Homepage</h1>
-    <img src="images/logo.png" alt="UNC Logo">
-    <ul>
-      <li>
-        <a href="profile.html">My Profile</a>
-      </li>
-      <li>
-          <a href="amuse.html">My Amusement</a>
-      </li>
-      <li>
-          <a href="inspire.html">My Hero</a>
-      </li>
-      <li>
-        <a href="educate.html">My knowledge</a>
-      </li>
-    </ul>
-    <p>
-        <a href="https://validator.w3.org/nu/?doc=https://roja6421.github.io">Validate my page</a>
-    </p>
-  </body>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Resume</title>
+    </head>
+    <body>
+        <nav>
+            <h1>Jessica Rojas</h1>
+            <ul>
+                <li><a href=index.html#contactinfo>Contact Info</a></li>
+                <li><a href=index.html#education>Education</a></li>
+                <li><a href=index.html#experience>Experience</a></li>
+                <li><a href=skills.html#skills>Skills</a></li>
+            </ul>
+        </nav>
+        <section id="contactinfo">
+            <h2>Contact Info</h2>
+            <img src="images/Rojas-Jessica1.jpg">
+            <ul>
+                <li>Phone: 970-501-7295</li>
+                <li>Email: roja6421@bears.unco.edu</li>
+            </ul>
+            
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>University of Northern Colorado <span class="date">(Dec 2024)</span></h3>
+                    <ul>
+                        <li>Major: Business  Administratioin w/emphasis in Marketing</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Community Manager @ IRT Living <span class="date">(July 2022 - Present)</span></li>
+                <li>Community Manager @ Investment Concepts <span class="date">(September 2019 - October 2021)</span></li>
+            </ul>
+        </section>
+    </body>
 </html>
